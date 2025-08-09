@@ -1,0 +1,84 @@
+/* INSTRUÇÃO 2: estilos base do documento */
+:root {
+  --base-color: darkslategrey;
+  --link-color: darkblue;
+}
+html, body {
+  color: var(--base-color);
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+/* INSTRUÇÃO 3: títulos */
+h1 {
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+h1 {
+  font-size: 24px;
+  background-color: lightskyblue; 
+  color: var(--link-color); 
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+a,
+a:visited {
+  color: var(--link-color); 
+  text-decoration: none;    
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+h1 a,
+h1 a:visited {
+  color: white;             
+}
+h2 a,
+h2 a:visited {
+  color: lightskyblue;      
+}
+
+h1:hover a,
+h1:hover a:visited,
+h2:hover a,
+h2:hover a:visited {
+  color: var(--link-color); 
+}
+
+footer .copyright {
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+  'font-size' 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: transparent; 
+}
+
+img{
+    border-radius: 50%
+}
